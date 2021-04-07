@@ -1,10 +1,4 @@
 # Databricks notebook source
-# To upload this file to the cloud, save this shortcut in your .bash_profile: /*
-# update_dscoe_utils {
-# databricks workspace export_dir /Shared/dscoe_utils /Users/petermyers/Desktop/dscoe_utils
-# gsutil cp /Users/petermyers/Desktop/utils/utils.py gs://dscoe-utils
-# }
-
 import pandas as pd
 def initialize_databases():
     spark.sql("create database back_room")
